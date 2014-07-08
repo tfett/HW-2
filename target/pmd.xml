@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.0.5" timestamp="2014-06-28T12:24:51.798">
+<file name="/Users/tylerfetters/Desktop/Advanced Java/airline/src/main/java/edu/pdx/cs410J/tfetters/Project2.java">
+<violation beginline="14" endline="14" begincolumn="15" endcolumn="15" rule="UnusedLocalVariable" ruleset="Unused Code" package="edu.pdx.cs410J.tfetters" class="Project1" method="main" variable="c" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'c'.
+</violation>
+<violation beginline="114" endline="116" begincolumn="23" endcolumn="9" rule="EmptyIfStmt" ruleset="Empty Code" package="edu.pdx.cs410J.tfetters" class="Project1" method="main" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/empty.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+</file>
+</pmd>
