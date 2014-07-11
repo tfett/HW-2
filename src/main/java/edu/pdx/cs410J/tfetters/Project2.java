@@ -48,12 +48,10 @@ public class Project2 {
         int optionCnt = 0;
         boolean toPrint  = false;
         boolean toReadMe  = false;
-        boolean toFromFile = true;
+        boolean toFromFile = false;
         boolean textFile = false;
         String filePath = null;
         File f = null;
-
-
 
 
         for (String arg : args) {

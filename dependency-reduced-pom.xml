@@ -43,8 +43,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>edu.pdx.cs410J.tfetters.Project2
-              </mainClass>
+              <mainClass>edu.pdx.cs410J.tfetters.Project2</mainClass>
             </manifest>
           </archive>
         </configuration>

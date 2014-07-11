@@ -106,6 +106,7 @@ public class Project1Test extends InvokeMainTestCase {
                                                 "6/08/20", "6:05", "SJC", "1/28/20", "7:15");
         assertTrue(result.getErr().contains("Departure Date not in proper format(mm/dd/yyyy hh:mm)"));
     }
+
     @Test
     public void timeIsInvalid() {
         MainMethodResult result = invokeMain("-print","United Airlines", "1234", "PDX",
@@ -123,9 +124,21 @@ public class Project1Test extends InvokeMainTestCase {
     @Test
     public void testCleanPass() {
         MainMethodResult result = invokeMain("-print","United Airlines", "1234", "PDX",
-                "6/28/2014", "6:05", "SJC", "6/28/2014", "00:15");
+                "6/28/2014", "6:05", "SJC", "12/28/2014", "23:15");
         assertEquals(new Integer(0), result.getExitCode());
     }
+
+    //Only do readme even with flags
+    @Test
+    public void testReadMeAnd() {
+
+
+    }
+
+    //invalid flags are ignored
+
+
+
 
 
 

@@ -3,6 +3,7 @@ package edu.pdx.cs410J.tfetters;
 import static org.hamcrest.MatcherAssert.assertThat;
 //import static org.hamcrest.Matchers.*;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import static org.junit.Assert.assertTrue;
 import edu.pdx.cs410J.InvokeMainTestCase;
@@ -147,7 +148,20 @@ public class Project2Test extends InvokeMainTestCase {
                 "6/23/2014", "6:05", "MIA", "6/24/2014", "01:15");
         assertEquals(new Integer(0), result.getExitCode());
     }
-    
+
+    @Test
+    public void fileDoesExistMissingArgs() {
+        MainMethodResult result = invokeMain("-textFile", "./test.txt", "PDX",
+                "6/23/2014", "6:05", "MIA", "6/24/2014", "01:15");
+        assertTrue(result.getErr().contains("Missing command line arguments"));
+
+    }
+
+    @Ignore
+    @Test
+    public void nameGivenDoesntMatchFileNameInfo() {
+        //TODO: Implement this!
+    }
     
 
 

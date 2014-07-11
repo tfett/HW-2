@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="15" failures="0" name="edu.pdx.cs410J.tfetters.Project1Test" time="0.063" errors="0" skipped="0">
+<testsuite tests="16" failures="0" name="edu.pdx.cs410J.tfetters.Project1Test" time="0.054" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib"/>
@@ -62,19 +62,20 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="timeIsInvalid2" time="0.049"/>
+  <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="timeIsInvalid2" time="0.04"/>
   <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="testTooManyCommandArguments" time="0"/>
-  <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="testNoCommandLineArguments" time="0"/>
+  <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="testNoCommandLineArguments" time="0.001"/>
   <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="timeIsInvalid" time="0.001"/>
   <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="yearInDateIsTwoDigits" time="0.001"/>
-  <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="testCleanPass" time="0.003"/>
+  <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="testCleanPass" time="0.002"/>
+  <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="testReadMeAnd" time="0"/>
   <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="monthInDateisTwoDigits" time="0.001"/>
-  <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="dayInDateisTwoDigits" time="0.001"/>
-  <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="flightNumberDigitsAndNonDigits" time="0"/>
-  <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="testTooFewCommandArguments" time="0.001"/>
-  <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="dayInDateIsOneDigit" time="0.002"/>
+  <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="dayInDateisTwoDigits" time="0.002"/>
+  <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="flightNumberDigitsAndNonDigits" time="0.001"/>
+  <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="testTooFewCommandArguments" time="0"/>
+  <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="dayInDateIsOneDigit" time="0.001"/>
   <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="monthInDateIsOneDigit" time="0.001"/>
   <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="SrcFlightIsMoreThan3Digits" time="0.001"/>
-  <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="flightNumberNotDigits" time="0.002"/>
-  <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="AirportContainsDigits" time="0"/>
+  <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="flightNumberNotDigits" time="0.001"/>
+  <testcase classname="edu.pdx.cs410J.tfetters.Project1Test" name="AirportContainsDigits" time="0.001"/>
 </testsuite>
